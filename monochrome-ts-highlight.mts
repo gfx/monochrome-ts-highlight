@@ -32,7 +32,10 @@ const styleMap = [
   [/^storage(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
   [/^keyword\.control(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
   [/^keyword\.other(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
-  [/^support(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
+  [/^support\.class(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
+  [/^support\.function(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
+  [/^support\.constant(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
+  [/^support\.type(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
   [/^constant\.language(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
   [/^string(?:\.[\w-]+)+\.ts$/, "font-weight: bold;"],
 ] as const satisfies ReadonlyArray<Pair<RegExp, string>>;
