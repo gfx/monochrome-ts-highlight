@@ -5,9 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "ts-node --esm sync-tmlanguages.mts",
+    "test": "tsc"
   },
-  "author": "",
+  "author": "FUJI Goro (gfx)",
   "license": "ISC",
   "devDependencies": {
     "@types/jsdom": "^20.0.1",
